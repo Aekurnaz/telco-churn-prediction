@@ -23,7 +23,6 @@ Veri seti; demografik bilgiler (`gender`, `SeniorCitizen`, `Partner`, `Dependent
 
 Hedef değişkende **sınıf dengesizliği** vardır: kalan müşteriler (~5.170), ayrılanlardan (~1.870) yaklaşık 3 kat fazladır. Bu nedenle veri bölmede `stratify=y`, modellerde `class_weight='balanced'` kullanılmış ve model karşılaştırma metriği olarak **F1-Score** seçilmiştir.
 
-![Müşteri Ayrılma (Churn) Dağılımı]
 
 <img width="744" height="498" alt="image" src="https://github.com/user-attachments/assets/b005e5f9-3ebc-4fad-9096-a23400d3bf70" />
 
@@ -83,7 +82,6 @@ Logistic Regression için Randomized Search (12 kombinasyon, 3-fold CV) ile bulu
 
 Optimize edilen model, ayrı tutulan test seti (705 kayıt) üzerinde değerlendirilmiştir.
 
-![Confusion Matrix]
 
 <img width="614" height="507" alt="image" src="https://github.com/user-attachments/assets/93c445ab-67ca-412f-bf4c-68acaadfdee1" />
 
@@ -102,8 +100,6 @@ Optimize edilen model, ayrı tutulan test seti (705 kayıt) üzerinde değerlend
 
 ## Korelasyon Analizi
 
-![En Etkili 15 Değişkenin Korelasyon Matrisi]
-
 <img width="638" height="514" alt="image" src="https://github.com/user-attachments/assets/d05a1d9b-828b-47d8-b172-a25b28eb7965" />
 
 
@@ -112,8 +108,6 @@ Optimize edilen model, ayrı tutulan test seti (705 kayıt) üzerinde değerlend
 - `Contract_Two year` (**-0.30**): uzun sözleşme sadakati güçlendirir.
 
 ## SHAP ile Açıklanabilirlik
-
-![SHAP Summary Plot]
 
 <img width="430" height="507" alt="image" src="https://github.com/user-attachments/assets/86b5c6e9-7934-4569-97a4-42ecf61d4fd8" />
 
