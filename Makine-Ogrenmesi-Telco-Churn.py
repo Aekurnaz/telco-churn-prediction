@@ -251,5 +251,3 @@ print("1. 'InternetService_Fiber optic': En önemli değişkendir. Kırmızı no
 print("2. 'tenure' (müşterilik süresi): Düşük tenure (mavi noktalar) sağda yer alıp ayrılma riskini artırırken; eski müşteriler (kırmızı noktalar) solda yer alır.")
 print("3. 'AvgChargePerMonth': Kendi ürettiğimiz bu değişkende, yüksek ortalama ödemesi olan müşterilerin (kırmızı) sadık kaldığı, düşük ödeme yapanların (mavi) ise ayrılma eğiliminde olduğu gözlemlenmiştir.")
 print("4. 'Contract_Two year': İki yıllık sözleşme yapan müşterilerin churn ihtimali ciddi oranda düşmektedir.")
-
-print("\nTüm işlemler başarıyla tamamlandı. Grafik dosyaları dizine kaydedildi.")
