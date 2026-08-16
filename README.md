@@ -30,10 +30,10 @@ Hedef değişkende **sınıf dengesizliği** vardır: kalan müşteriler (~5.170
 ## Nasıl Çalıştırılır
 
 ```bash
-# 1. Bağımlılıkları kurun
+# 1. kütüphaneleri kurun
 pip install -r requirements.txt
 
-# 2. Analizi çalıştırın
+# 2. kodu çalıştırın
 python Makine-Ogrenmesi-Telco-Churn.py
 ```
 
