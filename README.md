@@ -123,7 +123,7 @@ Modele en çok katkı yapan değişkenler:
 
 **Hangi model daha iyi oldu?** Validation F1 skoruna göre en iyi model **Logistic Regression** olmuştur (F1 = 0.6025). Random Forest accuracy'de daha yüksek kalsa da (0.7528) churn sınıfındaki F1'i daha düşüktür (0.5797); SVM her iki metrikte de geridedir. Dengesiz veri setlerinde accuracy yanıltıcı olabildiğinden model seçimi F1'e göre yapılmıştır.
 
-**Test sonuçları yorumu** Test setinde accuracy **%77**'dir. Asıl önemli olan churn sınıfında model **%80 recall** üretir: gerçekten ayrılan 187 müşterinin 150'sini doğru yakalar, yalnızca 37'sini kaçırır. Precision'ın 0.54 olması, 127 sadık müşterinin de "riskli" olarak işaretlendiğini gösterir. `class_weight='balanced'` bu dengeyi bilinçli olarak recall lehine kaydırmıştır; müşteri kaybının maliyeti kampanya maliyetinden yüksek olduğu için iş açısından tercih edilen senaryodur.
+**Test sonuçları yorumu** Test setinde accuracy **%77**'dir. Asıl önemli olan churn sınıfında model **%80 recall** üretir: gerçekten ayrılan 187 müşterinin 150'sini doğru yakalar, yalnızca 37'sini kaçırır. Precision'ın 0.54 olması, 127 sadık müşterinin de "riskli" olarak işaretlendiğini gösterir. `class_weight='balanced'` bu dengeyi bilinçli olarak recall lehine kaydırmıştır; müşteri kaybının maliyeti kampanya maliyetinden yüksek olduğu için tercih edilir.
 
 **Hangi değişkenler önemli?** Hem korelasyon hem SHAP analizi tutarlı biçimde aynı değişkenleri işaret eder: fiber internet kullanımı ve elektronik çek ile ödeme churn riskini artırır; uzun müşterilik süresi, iki yıllık sözleşme ve otomatik ödeme sadakati güçlendirir.
 
